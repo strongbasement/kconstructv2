@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@media (min-width:991px) {
+    
+#fixedbutton {
+    position: fixed;
+    top: 560px;
+    right: 30px; 
+}
+.carousel-control-prev-icon
+{
+    position:relative;
+    left: 299px;
+   
+    color: brown;
+    
+}
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon
+{
+    position:relative;
+    right: 299px;
+    
+}
+
+.services{
+  padding: 30px;
+
+}
+.conimg2
+{
+  width: 600px;
+  height:500px;
+}
+.conimg
+{
+  width: 600px;
+  height:500px;
+}
+.sh
+{
+  text-align: center;
+  margin-top: 45px;
+color:purple;
+font-size: 55px;
+}
+.services
+{
+  background-color:white;
+  color:black;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 45px;
+
+
+}
+#constructions{
+    font-size: 50px;
+    color:grey;
+}
+
+    .backsetter
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('l1.jpg');
+    /*background-size: cover;*/
+    background-size:cover;
+    height:2500px;
+  }
+.logo
+{
+    height: 200px;
+    width: 360px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+.nav-item
+{
+    margin-left: 40px;
+}
+
+.catchy
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.im2
+{
+    height: 360px;
+    width: 480px;
+
+}
+.c1
+{
+    padding-top: 200px;
+    width: 1400px;
+    font-weight: bolder;
+    
+    padding-left:290px;
+    margin: 0px;
+	  word-wrap: break-all;
+      font-family: 'Staatliches', cursive;
+
+
+
+}
+
+#home
+{
+    background-color: azure;
+padding: 10px;
+height: 700px;
+}
+.navbar-brand{
+    text-align: center;
+    padding-left: 25px;
+
+
+}
+
+#logo
+{
+    color: brown;
+    font-size: 46px;
+font-family: 'Kanit', sans-serif;
+margin-bottom: 2px;
+
+}
+#bio
+{
+    font-size: 16px;
+    color:olive;
+font-family: 'PT Serif', serif;
+    margin-top: 2px;
+}
+.im2{
+    right: -30px;
+
+    margin-top: 45px;
+}
+
+.ctext
+{
+    font-size: 40px;
+    color:white;
+    position: relative;
+    bottom:90px;
+    /*background: rgb(0, 0, 0); /* Fallback color */
+    /*background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    /*color: #f1f1f1; /* Grey text */
+
+    text-shadow: 2px 2px 2px black;
+}
+h1
+{
+    font-size: 60px;
+    color: white;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+
+	}
+.c4
+{
+    font-size: 40px;
+    color: white;
+    position: relative;
+    bottom:90px;
+
+}
+.m76
+{   position:relative;
+    top: 90px;
+    right:290px;
+    height: 600px;
+}
+.imgflex
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.w-100
+{
+  width: 200px;
+}
+.row{
+  position: relative;
+  padding-bottom: 600px;
+
+}
+
+}
+.conflex
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.navbar{
+    position:fixed;
+}
+@media (max-width:991px) {
+
+    .navbar-toggler 
+    {
+position: relative;
+right:50px;
+    }
+  .conimg2
+  {
+    width: 300px;
+    height:400px;
+  }
+  .sh
+  {
+    text-align: center;
+    margin-top: 45px;
+  color:purple;
+  font-size: 38px;
+  }
+  .services
+  {
+    
+
+  background-color:white;
+  color:black;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 23px;
+
+
+
+  }
+  #constructions
+  {
+    color: grey;
+    font-size: 33px;
+  }
+    .backsetter
+    {
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('l1.jpg');
+        background-size: cover;
+
+        height:1800px;
+      }
+    .ctext
+{
+    font-size:20px;
+    color:white;
+    /*background: rgb(0, 0, 0); /* Fallback color */
+    /*background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    /*color: #f1f1f1; /* Grey text */
+    text-shadow: 2px 2px 2px black;
+    padding-left: 30px;
+}
+.c4{
+    padding-left: 12px;
+    padding-top: 40px;
+    font-size:20px;
+    color: white;
+
+    font-family: 'Staatliches', cursive;
+    word-wrap: break-word;
+}
+.backsetter
+{
+  width:700px;
+}
+#logo
+{
+    color: brown;
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-bottom: 2px;
+
+}
+#bio
+{
+    font-size: 10px;
+    color:olive;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2px;
+}
+.conimg
+{
+  width: 300px;
+  height:400px;
+}
+.services{
+  padding: 60px;
+}
+
+}
